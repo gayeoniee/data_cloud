@@ -1,0 +1,24 @@
+# --- Python cache & build ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments (ignore whole folder) ---
+.venv/
+venv/
+env/
+ENV/
+.pythonenv/
+.rovenv/
+
+# --- If venv 이름을 몰라도 pyvenv.cfg로 탐지 (보조) ---
+**/pyvenv.cfg
+**/Include/
+**/Lib/
+**/Scripts/
+
+# --- OS 잡동사니 ---
+.DS_Store
+Thumbs.db
