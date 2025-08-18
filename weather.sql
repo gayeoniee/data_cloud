@@ -308,7 +308,7 @@ ORDER BY cnt DESC;
 
 
 
-
+SELECT ta FROM cp_data.tb_weather_aws1 where stn='410' order by seq_no DESC LIMIT 1;
 
 
 
