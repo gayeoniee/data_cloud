@@ -29,7 +29,7 @@ for stn in stn_list:
     # URL과 저장 경로 변수를 지정합니다.
     req_url = f'https://dapi.kakao.com/v2/local/geo/coord2address?x={LON}&y={LAT}'
     print('req_url : ', req_url)
-    headers = {'Authorization' : 'KakaoAK 8072fd936d24c09ff71f994e614b1443'}
+    headers = {'Authorization' : 'KakaoAK '}
     response = requests.get( req_url, headers=headers ) # 파일 URL에 GET 요청 보내기
     org_data = response.text
     print(org_data)
